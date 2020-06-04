@@ -1,0 +1,73 @@
+body {
+  background-color: #0e9aa7;
+  position: relative;
+  display: flex;
+}
+#root {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+.stopwatch {
+  position: relative;
+  border: 1px solid #e4e4e4;
+  border-radius: 10px;
+  background-color: #e4e4e4;
+  box-shadow: 0 0 10px #342b38;
+  background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
+  background-size: 25px 25px;
+}
+h1 {
+  margin: 50px;
+  color: #0e9aa7;
+  font-size: 8rem;
+  text-shadow: 2px 2px 8px #342b38;
+}
+h2 {
+  font-size: 4rem;
+  color: #e4e4e4;
+  text-shadow: 2px 2px 8px #342b38;
+}
+p {
+  color: #e4e4e4;
+  font-size: 1.5rem;
+}
+.function-btn {
+  margin-bottom: 50px;
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+  border: none;
+  background-color: #0e9aa7;
+  box-shadow: 2px 2px 8px #342b38;
+}
+.extra-btn {
+  padding: 0;
+  position: relative;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: #0e9aa7;
+  text-shadow: 0 0 2px #342b38;
+  height: 25px;
+  width: 65px;
+}
+.reset-btn {
+  left: 15%;
+  bottom: 15px;
+}
+.lap-btn {
+  right: 16%;
+  bottom: 15px;
+}
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 15vw;
+  }
+}
+@media (max-width: 500px) {
+  h2 {
+    font-size: 3rem;
+  }
+}
